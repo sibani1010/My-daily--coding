@@ -13,7 +13,9 @@ public class Solution {
 	    int count=0;
 	    for(int i=0;i<32;i++)
 	    {
-	        if((a&(1<<i))!=0)//here we are doing AND operation between a and 1. 1 will be added each bits of "a". if result is 1 then we have found a set bit.
+	        if((a&(1<<i))!=0)//here we are doing AND operation between every bit of "a"  and 1.
+			        //If the result is 1 then we have found a Set bit.
+			        //To perform AND operation we are left shift of 1 for ith times.
 	        {
 	           count++; 
 	        }
