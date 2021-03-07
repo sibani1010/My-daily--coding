@@ -15,7 +15,7 @@ public class Solution {
 	    {
 	        if((a&(1<<i))!=0)//here we are doing AND operation between every bit of "a"  and 1.
 			        //If the result is 1 then we have found a Set bit.
-			        //To perform AND operation we are left shift of 1 for ith times.
+			        //To perform AND operation we are shifting of 1 to left for ith times.
 	        {
 	           count++; 
 	        }
