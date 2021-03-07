@@ -13,7 +13,7 @@ public class Solution {
 	    int count=0;
 	    for(int i=0;i<32;i++)
 	    {
-	        if((a&(1<<i))!=0)
+	        if((a&(1<<i))!=0)//here we are doing AND operation between a and 1. 1 will be added each bits of "a". if result is 1 then we have found a set bit.
 	        {
 	           count++; 
 	        }
